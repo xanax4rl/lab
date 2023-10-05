@@ -23,6 +23,10 @@ namespace lab1
         this.marketPart = marketPart;
     }
 
+    
+
+    public void Print() => Console.WriteLine($"Фірма = {company}\nКількість продуктів = {products}\nРічний об'єм продажу = {asv}\nЧастина ринку = {marketPart}%");
+    // Метод, який виводить інформацію про компанію на консоль.
 }
 
 }
